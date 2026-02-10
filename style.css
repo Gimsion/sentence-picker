@@ -1,4 +1,5 @@
 body {
+  background: red !important;
   background-color: #f6f5f3;
   font-family: "Noto Serif KR", serif;
   display: flex;
@@ -44,3 +45,4 @@ button {
 button:hover {
   opacity: 0.85;
 }
+
