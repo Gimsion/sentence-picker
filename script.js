@@ -49,8 +49,6 @@ const sentences = [
   `삶의 껍데기 위에서, 심연의 껍데기 위에서 우리들은 곡예하듯 탈을 쓰고 살아간다.<br><span class="source">&lt;그대의 차가운 손&gt;, 한강, 313p 中</span>`,
 
   `인생의 한 챕터를 마치고 다음 챕터로 넘어갈 때마다 생각한다. ‘이건 획기적인 일이잖아.’<br><span class="source">&lt;공부의 위로&gt;, 곽아람, 24p 中</span>`
-];];
-
 ];
 
 function pickSentence() {
@@ -62,6 +60,7 @@ function pickSentence() {
   result.innerHTML = sentences[randomIndex]; // innerHTML 사용
   result.classList.add("fade");
 }
+
 
 
 
