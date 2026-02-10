@@ -52,25 +52,15 @@ const sentences = [
 `“젊음은 괴로워…… 너무 많은 가능성이 있거든.”<br><br>복희가 묻는다.<br><br>“그게 행운이지, 왜 괴로워?”<br><br>정수리를 굴리던 슬아가 대답한다.<br><br>“다 해봐야 할 것 같잖아. 안 누리면 손해인 것 같잖아.”<br><br>복희는 다 해볼 수는 없다고 말하려다가 만다. 슬아도 이미 알 것이기 때문이다. 그는 그저 이렇게만 말한다. <br><br>“인생에서 손해 같은 건 없어.”<br><br>정말 그런가, 하고 슬아는 생각한다. <span class="source">&lt;가녀장의 시대&gt;, 이슬아, 78p 中</span>`,
 ];
 
+// 2️⃣ 함수 선언
 function pickSentence() {
   const randomIndex = Math.floor(Math.random() * sentences.length);
   const result = document.getElementById("result");
 
+  // fade 효과를 위한 클래스 토글
   result.classList.remove("fade");
-  void result.offsetWidth;
+  void result.offsetWidth; // reflow 강제
   result.innerHTML = sentences[randomIndex];
   result.classList.add("fade");
 }
 
-
-// 배열 섞는 함수
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
-
-// sentences 배열 섞기
-const shuffledSentences = shuffleArray(sentences);
