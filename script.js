@@ -38,4 +38,4 @@
       result.innerHTML = sentences[randomIndex];
       result.classList.add("fade");
     }
-  </script>
+
