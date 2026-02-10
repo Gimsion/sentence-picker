@@ -12,7 +12,7 @@ function pickSentence() {
 
   result.classList.remove("fade");
   void result.offsetWidth;
-  result.innerHTML = sentences[randomIndex];
+  result.innerHTML = sentences[randomIndex]; // innerHTML 사용
   result.classList.add("fade");
 }
 
