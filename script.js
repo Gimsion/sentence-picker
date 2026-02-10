@@ -37,18 +37,14 @@ const sentences = [
 
 function pickSentence() {
   const randomIndex = Math.floor(Math.random() * sentences.length);
-  document.getElementById("result").innerText = sentences[randomIndex];
-}
-
-function pickSentence() {
-  const randomIndex = Math.floor(Math.random() * sentences.length);
   const result = document.getElementById("result");
 
-  result.classList.remove("fade"); // 애니메이션 초기화
-  void result.offsetWidth;         // 강제로 reflow → 애니메이션 재실행
-  result.innerText = sentences[randomIndex];
-  result.classList.add("fade");    // 새 글씨에 애니메이션 적용
+  result.classList.remove("fade");
+  void result.offsetWidth;
+  result.innerHTML = sentences[randomIndex]; // innerHTML 사용
+  result.classList.add("fade");
 }
+
 
 
 
