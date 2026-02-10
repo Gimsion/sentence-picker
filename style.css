@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Gaegu', cursive;
-  background-color: #3c0b1a; /* 변경된 배경색 */
+  background-color: #2d1907; /* 변경 */
   color: #f5efe6;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@ h1 {
 
 button {
   font-family: 'Gaegu', cursive;
-  background-color: #4f6f52;
+  background-color: #364907; /* 변경 */
   color: #f5efe6;
   border: none;
   padding: 14px 28px;
@@ -53,6 +53,7 @@ button:hover {
   background-color: #3f5f44;
   transform: translateY(-2px);
 }
+
 
 
 
