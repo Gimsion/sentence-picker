@@ -1,4 +1,4 @@
-alert("JS 연결 성공");
+alert("마음에 드는 문장을 만나길 🍵");
 
 const sentences = [
   "상대방이 “나와 다른 마음일 수도 있다는 것을 잊지 않”는 그의 문장을 잊지 않고 싶다. 그 가능성을 겸허히 받아들이는 사람만이 다음 문제도 성숙하게 해결할 수 있을 것이다.(<부지런한 사랑> 中, 68p)",
@@ -11,5 +11,6 @@ function pickSentence() {
   const randomIndex = Math.floor(Math.random() * sentences.length);
   document.getElementById("result").innerText = sentences[randomIndex];
 }
+
 
 
