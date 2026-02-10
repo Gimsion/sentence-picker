@@ -11,22 +11,20 @@ body {
 
 .container {
   background: linear-gradient(
-    to bottom,
-    #fffdf8,
-    #f7f1e8
+    180deg,
+    #fffdf9 0%,
+    #f4ede3 100%
   );
   color: #3e2f23;
   border-radius: 18px;
   padding: 48px 40px;
   max-width: 420px;
   width: 90%;
-  min-height: 280px; /* 최소 높이만 */
   text-align: center;
   box-shadow:
-    0 10px 30px rgba(40, 25, 15, 0.25),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+    0 12px 28px rgba(40, 25, 15, 0.28),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.6);
 }
-
 
 h1 {
   font-size: 1.9rem;
@@ -55,6 +53,7 @@ button:hover {
   background-color: #3f5f44;
   transform: translateY(-2px);
 }
+
 
 
 
