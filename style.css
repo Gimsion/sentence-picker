@@ -10,14 +10,14 @@ body {
  }
 
 .container {
-  background-color: #f8efed;
+  background-color: #fffaf2;
+  color: #3e2f23; /* 글씨는 항상 진한 갈색 */
   border-radius: 18px;
   padding: 48px 40px;
   max-width: 420px;
   width: 90%;
   text-align: center;
   box-shadow: 0 10px 30px rgba(40, 25, 15, 0.25);
-  color: #3e2f23; /* 진한 갈색 글씨 */
 }
 
 
@@ -55,6 +55,7 @@ button:hover {
   cursor: pointer;
   transition: all 0.25s ease;
 }
+
 
 
 
