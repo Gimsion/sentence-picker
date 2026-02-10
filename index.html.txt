@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>문장 뽑기</title>
+  </head>
+
+  <body>
+    <h1>오늘의 문장</h1>
+
+    <button>문장 뽑기</button>
+
+    <p>여기에 문장이 나와요</p>
+  </body>
+</html>
+onclick="sayHi()"
+
+<script src="script.js"></script>
