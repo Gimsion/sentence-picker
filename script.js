@@ -62,3 +62,15 @@ function pickSentence() {
   result.classList.add("fade");
 }
 
+
+// 배열 섞는 함수
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+// sentences 배열 섞기
+const shuffledSentences = shuffleArray(sentences);
