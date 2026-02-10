@@ -5,8 +5,9 @@ const sentences = [
   "오늘의 문장이 내일의 나를 만든다."
 ];
 
-function pickSentence() {
+function picksentence() {
   const randomIndex = Math.floor(Math.random() * sentences.length);
   document.getElementById("result").innerText = sentences[randomIndex];
 }
+
 
