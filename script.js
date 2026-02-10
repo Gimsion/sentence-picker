@@ -1,3 +1,4 @@
+alert("JS 연결됨");
 const sentences = [
   "문장은 사람을 살린다.",
   "기록은 기억보다 오래 남는다.",
@@ -9,3 +10,4 @@ function pickSentence() {
   const randomIndex = Math.floor(Math.random() * sentences.length);
   document.getElementById("result").innerText = sentences[randomIndex];
 }
+
