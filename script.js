@@ -12,17 +12,4 @@ function pickSentence() {
   document.getElementById("result").innerText = sentences[randomIndex];
 }
 
-function copySentence() {
-  const text = document.getElementById("result").innerText;
 
-  if (!text || text === "여기에 문장이 나와요") return;
-
-  navigator.clipboard.writeText(text).then(() => {
-    const msg = document.getElementById("copy-msg");
-    msg.style.display = "block";
-
-    setTimeout(() => {
-      msg.style.display = "none";
-    }, 1500);
-  });
-}
