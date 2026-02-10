@@ -7,7 +7,5 @@ const sentences = [
 
 function sayHi() {
   const randomIndex = Math.floor(Math.random() * sentences.length);
-  const randomSentence = sentences[randomIndex];
-
-  document.getElementById("result").innerText = randomSentence;
+  document.getElementById("result").innerText = sentences[randomIndex];
 }
