@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Yeon Sung', cursive;
+  font-family: 'Gaegu', cursive;
   background-color: #7a5c45;
   color: #f5efe6;
   display: flex;
@@ -34,8 +34,8 @@ h1 {
 }
 
 button {
-  font-family: 'Yeon Sung', cursive;
-  background-color: #4f6f52; /* 기본도 초록 */
+  font-family: 'Gaegu', cursive;
+  background-color: #4f6f52;
   color: #f5efe6;
   border: none;
   padding: 14px 28px;
@@ -49,6 +49,7 @@ button:hover {
   background-color: #3f5f44;
   transform: translateY(-2px);
 }
+
 
 
 
