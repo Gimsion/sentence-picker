@@ -1,13 +1,13 @@
 body {
   margin: 0;
   font-family: 'Gaegu', cursive;
-  background-color: #7a5c45;
+  background-color: #3c0b1a; /* 변경된 배경색 */
   color: #f5efe6;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
- }
+}
 
 .container {
   background: linear-gradient(
@@ -53,6 +53,7 @@ button:hover {
   background-color: #3f5f44;
   transform: translateY(-2px);
 }
+
 
 
 
