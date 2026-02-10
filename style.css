@@ -1,21 +1,21 @@
 body {
-  margin: 0;
-  font-family: 'Gaegu', cursive;
-  background-color: #2d1907; /* 변경 */
-  color: #f5efe6;
+  background-color: #2d1907;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin: 0;
+  font-family: 'Yeon Sung', cursive;
 }
 
 .container {
-  background-color: #f5efe6; /* 베이지 종이 */
+  background-color: #f5efe6;
   color: #3e2f23;
-  padding: 32px 24px;
-  border-radius: 18px;
-  max-width: 360px;
+  padding: 36px 28px;
+  border-radius: 20px;
+  max-width: 380px;
   width: 90%;
+  text-align: center;
   position: relative;
   z-index: 2;
 }
@@ -69,6 +69,7 @@ button:hover {
     padding: 16px 32px;
   }
 }
+
 
 
 
