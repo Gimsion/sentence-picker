@@ -34,17 +34,7 @@ h1 {
 }
 
 button {
-  background-color: #222;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 999px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-button:hover {
- font-family: 'Yeon Sung', cursive;
+  font-family: 'Yeon Sung', cursive;
   background-color: #4f6f52; /* 기본도 초록 */
   color: #f5efe6;
   border: none;
@@ -54,6 +44,12 @@ button:hover {
   cursor: pointer;
   transition: all 0.25s ease;
 }
+
+button:hover {
+  background-color: #3f5f44;
+  transform: translateY(-2px);
+}
+
 
 
 
