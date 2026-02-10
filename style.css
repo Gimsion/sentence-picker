@@ -10,7 +10,7 @@ body {
  }
 
 .container {
-  background-color: #fffaf2; /* 종이 느낌 */
+  background-color: #5b3f2d;
   border-radius: 18px;
   padding: 48px 40px;
   max-width: 420px;
@@ -46,6 +46,7 @@ button {
 button:hover {
   opacity: 0.85;
 }
+
 
 
 
