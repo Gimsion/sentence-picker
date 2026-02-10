@@ -89,6 +89,13 @@ button:hover {
 }
 
 
+.source {
+  font-size: 0.85em;    /* 본문보다 작게 */
+  font-weight: bold;    /* 볼드체 */
+  display: block;       /* 줄바꿈 유지 */
+  margin-top: 4px;      /* 본문과 약간 간격 */
+  color: #3e2f23;       /* 글씨 색은 본문과 동일 */
+}
 
 
 
