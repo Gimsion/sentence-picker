@@ -12,5 +12,14 @@ function pickSentence() {
   document.getElementById("result").innerText = sentences[randomIndex];
 }
 
+function pickSentence() {
+  const randomIndex = Math.floor(Math.random() * sentences.length);
+  const result = document.getElementById("result");
+
+  result.classList.remove("fade"); // 초기화
+  void result.offsetWidth;         // 애니메이션 리셋 트릭
+  result.innerText = sentences[randomIndex];
+  result.classList.add("fade");
+}
 
 
