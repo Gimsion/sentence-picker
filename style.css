@@ -6,7 +6,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
- body {
   font-family: 'Yeon Sung', cursive;
 }
 
@@ -49,6 +48,7 @@ button {
 button:hover {
   opacity: 0.85;
 }
+
 
 
 
