@@ -1,7 +1,7 @@
 body {
  margin: 0;
   font-family: 'Yeon Sung', cursive;
-  background-color: #7a5c45; /* 숲 느낌 갈색 */
+  background-color: #5b3f2d; /* 숲 느낌 갈색 */
   color: #f5efe6;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@ body {
  }
 
 .container {
-  background-color: #5b3f2d;
+  background-color: #f8efed;
   border-radius: 18px;
   padding: 48px 40px;
   max-width: 420px;
@@ -46,6 +46,7 @@ button {
 button:hover {
   opacity: 0.85;
 }
+
 
 
 
