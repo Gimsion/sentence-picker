@@ -76,7 +76,7 @@ const sentences = [
 `"제가 끝까지 해낼 수 있는 무게를 유지하면 안 되나요? 그래야 계속 할 수 있을 것 같은데요."<br>"그럼 늘지 않아요. 실패 지점까지 가야 해요. 노력도 안 되는 순간까지요." <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 134p 中</span>`,
 `우리는 아주 느리고 깜짝 놀라울 정도로 비효율적이야. 그러나 분명히 너를 어딘가로 데려가고 있어. <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 137p 中</span>`,
 `몽골에서는 우연히 만나는 손님이나 행인을 천사로 생각한다던데, (...) <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 176p 中</span>`,
-`자기 인생의 미장센을 스스로 발명하는 사람은 쉬이 낡지 않는다. <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 194p 中</span>`
+`자기 인생의 미장센을 스스로 발명하는 사람은 쉬이 낡지 않는다. <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 194p 中</span>`,
 ];
 
 // 2. pickSentence 함수 선언 (선언부는 배열 아래)
@@ -95,6 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const btn = document.getElementById("pickBtn");
   btn.addEventListener("click", pickSentence);
 });
+
 
 
 
