@@ -77,6 +77,7 @@ const sentences = [
 `우리는 아주 느리고 깜짝 놀라울 정도로 비효율적이야. 그러나 분명히 너를 어딘가로 데려가고 있어. <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 137p 中</span>`,
 `몽골에서는 우연히 만나는 손님이나 행인을 천사로 생각한다던데, (...) <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 176p 中</span>`,
 `자기 인생의 미장센을 스스로 발명하는 사람은 쉬이 낡지 않는다. <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 194p 中</span>`
+  `누가 "너 못해!"라고 하면 상심하고 속상해하기보다는 '너는 그렇게 잘하냐? 잘하면 될 거 아니야!'라고 생각했죠. 하하. <span class="source">&lt;여자가 사랑한 여자들&gt;, 이예지 인터뷰집-강지영, 274p 中</span>`
 ];
 
 // 2. pickSentence 함수 선언 (선언부는 배열 아래)
@@ -95,6 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const btn = document.getElementById("pickBtn");
   btn.addEventListener("click", pickSentence);
 });
+
 
 
 
