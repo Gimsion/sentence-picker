@@ -10,17 +10,16 @@ body {
 }
 
 .container {
-  background: white;
-  padding: 40px;
-  border-radius: 16px;
-  width: 90%;
+  background-color: #fffaf2;   /* 아주 연한 크림 */
+  border-radius: 18px;
+  padding: 48px 40px;
   max-width: 420px;
+  width: 90%;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  
-  display: flex;
-  flex-direction: column;
+
+  box-shadow: 0 10px 30px rgba(58, 44, 32, 0.08);
 }
+
 
 h1 {
   font-size: 20px;
@@ -48,6 +47,7 @@ button {
 button:hover {
   opacity: 0.85;
 }
+
 
 
 
