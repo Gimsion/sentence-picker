@@ -27,10 +27,9 @@ h1 {
 }
 
 #result {
-  font-size: 18px;
+  font-size: 1.4rem;
   line-height: 1.8;
-  margin-bottom: 32px;
-  color: #222;
+  margin: 32px 0;
 }
 
 button {
@@ -46,6 +45,7 @@ button {
 button:hover {
   opacity: 0.85;
 }
+
 
 
 
