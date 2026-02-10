@@ -10,14 +10,21 @@ body {
  }
 
 .container {
-  background-color: #fffaf2;
-  color: #3e2f23; /* 글씨는 항상 진한 갈색 */
+  background: linear-gradient(
+    to bottom,
+    #fffdf8,
+    #f7f1e8
+  );
+  color: #3e2f23;
   border-radius: 18px;
   padding: 48px 40px;
   max-width: 420px;
   width: 90%;
+  min-height: 280px; /* 최소 높이만 */
   text-align: center;
-  box-shadow: 0 10px 30px rgba(40, 25, 15, 0.25);
+  box-shadow:
+    0 10px 30px rgba(40, 25, 15, 0.25),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.4);
 }
 
 
@@ -48,6 +55,7 @@ button:hover {
   background-color: #3f5f44;
   transform: translateY(-2px);
 }
+
 
 
 
