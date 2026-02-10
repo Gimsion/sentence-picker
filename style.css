@@ -21,9 +21,10 @@ body {
   max-width: 420px;
   width: 90%;
   text-align: center;
+
   box-shadow:
-    0 12px 28px rgba(40, 25, 15, 0.28),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.6);
+    0 8px 20px rgba(0, 0, 0, 0.25),
+    0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
@@ -55,6 +56,26 @@ button:hover {
 }
 
 
+@media (max-width: 600px) {
+
+  .container {
+    padding: 40px 24px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  #result {
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+
+  button {
+    font-size: 1.2rem;
+    padding: 16px 32px;
+  }
+}
 
 
 
