@@ -21,9 +21,9 @@ body {
 
 
 h1 {
-  font-size: 20px;
-  color: #555;
+  font-size: 3rem;   /* 기본보다 훨씬 큼 */
   margin-bottom: 24px;
+  letter-spacing: 2px;
 }
 
 #result {
@@ -46,6 +46,7 @@ button {
 button:hover {
   opacity: 0.85;
 }
+
 
 
 
