@@ -66,6 +66,17 @@ const sentences = [
 `그녀는 후배를 싫어하지 않는다. 후배에게 느끼는 불편함 역시 하나의 습관일지 몰랐다. <span class="source">&lt;침이 고인다&gt;, 김애란, 74p 中</span>`,
 `큰따옴표를 쓰는 순간을 나는 눈여겨보게 된다. 그건 다른 사람의 말을 거의 외워야 가능한 일이기 때문이다. 자신이 했던 말만 기억해가지고는 큰따옴표를 잘 사용하기 어렵다. <span class="source">&lt;부지런한 사랑&gt;, 이슬아, 71p 中</span>`,
 `네가 몰랐던 기쁨과 슬픔을 처음으로 만날 순간들도 기대돼. <span class="source">&lt;부지런한 사랑&gt;, 이슬아, 86p 中</span>`,
+`그들에 대해 말하려면 특정 방향으로 힘이 기우는 세계를 탐구해야 한다. 그게 내가 배운 저항의 방식이다. 중요한 이야기를 중요하게 다루는 것. 누락된 목소리를 정확하게 옮겨 적는 것. <span class="source">&lt;날씨와 얼굴&gt;, 이슬아, 7p 中</span>`,
+`내가 직접 하지 않는 노동으로 내 삶이 굴러간다는 사실이 자주 새삼스럽다. <span class="source">&lt;날씨와 얼굴&gt;, 이슬아, 105p 中</span>`,
+`(...) 그럼에도 스스로에게 관용을 베푸는 밤. <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 24p 中</span>`,
+`중압감에서 벗어나 소유와 성취의 강박을 거두면 대상을 향한 내 사랑의 순도를 파악하는 기회가 찾아온다. <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 51p 中</span>`,
+`어떤 것을 사랑한다면 우리는 기꺼이 변방으로 향할 수 있다. 그리고 그곳이 실은 중심임을 알아차린다. <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 55p 中</span>`,
+`나는 저 계단을 올라가는 걸 싫어한다. 그렇지만 일단 계단을 오르기 시작하면 나는 내 행운을 믿는다. <span class="source">영화 &lt;여자가 계단을 오를 때&gt;</span>`,
+`"그럼 한번 멋지게 해봐라. 좋아하는 마음에 보답해야 하니까." <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 128p 中</span>`,
+`"제가 끝까지 해낼 수 있는 무게를 유지하면 안 되나요? 그래야 계속 할 수 있을 것 같은데요."<br>"그럼 늘지 않아요. 실패 지점까지 가야 해요. 노력도 안 되는 순간까지요." <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 134p 中</span>`,
+`우리는 아주 느리고 깜짝 놀라울 정도로 비효율적이야. 그러나 분명히 너를 어딘가로 데려가고 있어. <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 137p 中</span>`,
+`몽골에서는 우연히 만나는 손님이나 행인을 천사로 생각한다던데, (...) <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 176p 中</span>`,
+`자기 인생의 미장센을 스스로 발명하는 사람은 쉬이 낡지 않는다. <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 194p 中</span>`
 ];
 
 // 2. pickSentence 함수 선언 (선언부는 배열 아래)
@@ -84,5 +95,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const btn = document.getElementById("pickBtn");
   btn.addEventListener("click", pickSentence);
 });
+
 
 
