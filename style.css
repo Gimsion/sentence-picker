@@ -1,23 +1,22 @@
 body {
  margin: 0;
-  font-family: 'Noto Sans KR', sans-serif;
-  background-color: #f5f1e8; /* 베이지 */
+  font-family: 'Yeon Sung', cursive;
+  background-color: #7a5c45; /* 숲 느낌 갈색 */
+  color: #f5efe6;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-family: 'Yeon Sung', cursive;
-}
+ }
 
 .container {
-  background-color: #fffaf2;   /* 아주 연한 크림 */
+  background-color: #fffaf2; /* 종이 느낌 */
   border-radius: 18px;
   padding: 48px 40px;
   max-width: 420px;
   width: 90%;
   text-align: center;
-
-  box-shadow: 0 10px 30px rgba(58, 44, 32, 0.08);
+  box-shadow: 0 10px 30px rgba(40, 25, 15, 0.25);
 }
 
 
@@ -47,6 +46,7 @@ button {
 button:hover {
   opacity: 0.85;
 }
+
 
 
 
