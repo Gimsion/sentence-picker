@@ -16,10 +16,11 @@ function pickSentence() {
   const randomIndex = Math.floor(Math.random() * sentences.length);
   const result = document.getElementById("result");
 
-  result.classList.remove("fade"); // 초기화
-  void result.offsetWidth;         // 애니메이션 리셋 트릭
+  result.classList.remove("fade"); // 애니메이션 초기화
+  void result.offsetWidth;         // 강제로 reflow → 애니메이션 재실행
   result.innerText = sentences[randomIndex];
-  result.classList.add("fade");
+  result.classList.add("fade");    // 새 글씨에 애니메이션 적용
 }
+
 
 
