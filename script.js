@@ -77,6 +77,10 @@ const sentences = [
 `우리는 아주 느리고 깜짝 놀라울 정도로 비효율적이야. 그러나 분명히 너를 어딘가로 데려가고 있어. <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 137p 中</span>`,
 `몽골에서는 우연히 만나는 손님이나 행인을 천사로 생각한다던데, (...) <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 176p 中</span>`,
 `자기 인생의 미장센을 스스로 발명하는 사람은 쉬이 낡지 않는다. <span class="source">&lt;불이 켜지기 전에&gt;, 김소미, 194p 中</span>`,
+`모두 다 무언가에 떠밀려 어른인 척 하기에 바쁜데 나는 개 나이로 세살 반이야 모르고 싶은 것이 더 많아 <span class="source">&lt;강아지&gt;, 검정치마</span>`,
+`물보다 맑고 묽게 널 사랑해 <span class="source">&lt;맑고 묽게&gt;, 검정치마</span>`,
+`화려한 것들이 결국 다 날아가 버려도 외롭진 않겠네 네가 내 곁에 남아 있어서 <span class="source">&lt;앵무새&gt;, 검정치마</span>`,
+`젊은 피가 젊은 사랑을 후회할 수가 있나 <span class="source">&lt;젊은 우리 사랑&gt;, 검정치마</span>`,
 ];
 
 // 2. pickSentence 함수 선언 (선언부는 배열 아래)
@@ -95,6 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const btn = document.getElementById("pickBtn");
   btn.addEventListener("click", pickSentence);
 });
+
 
 
 
