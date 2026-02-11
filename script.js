@@ -91,6 +91,8 @@ const sentences = [
 `어떻게 사는 것이 맞을까 어느날 알 것 같다가도 정말 모르겠어 다만 나쁜 일들이 닥치면서도 기쁜 일들이 함께 한다는 것 우리는 늘 누군가를 만나 무언가를 나눈다는 것 세상은 참 신기하고 아름답다. <span class="source">영화 &lt;벌새&gt;</span>`,
 `함부로 동정할 수 없어. 알 수 없잖아. <span class="source">영화 &lt;벌새&gt;</span>`,
 `난 이래서 음악이 좋아. 지극히 따분한 일상의 순간까지도 의미를 갖게 되잖아. 이런 평범함도 어느 순간 갑자기 진주처럼 아름답게 빛나거든. 그게 바로 음악이야. <span class="source">영화 &lt;비긴 어게인&gt;</span>`,
+`내내 여름을 살던 사람이 겨울을 처음 맞는다면 할 수 있는 일이 아무것도 없는 것은 당연하다. 겨울에 익숙해지거나, 다시 봄이 오기를 기다려야 한다. 어떤 방향이든 시간이 필요하다. <span class="source">&lt;우리는 아직 무엇이든 될 수 있다&gt;, 김진영, 11p 中</span>`,
+
 ];
 
 // 2. pickSentence 함수 선언 (선언부는 배열 아래)
@@ -109,6 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const btn = document.getElementById("pickBtn");
   btn.addEventListener("click", pickSentence);
 });
+
 
 
 
