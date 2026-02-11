@@ -81,6 +81,16 @@ const sentences = [
 `물보다 맑고 묽게 널 사랑해 <span class="source">&lt;맑고 묽게&gt;, 검정치마</span>`,
 `화려한 것들이 결국 다 날아가 버려도 외롭진 않겠네 네가 내 곁에 남아 있어서 <span class="source">&lt;앵무새&gt;, 검정치마</span>`,
 `젊은 피가 젊은 사랑을 후회할 수가 있나 <span class="source">&lt;젊은 우리 사랑&gt;, 검정치마</span>`,
+`생각해보면 우리가 만난 것도 진짜 별것 아닌 이유에서였으니까. 그렇게 만나서 어느 누구에게도 말하지 않았던 것들을 말하고, 가까워지고, 특별해졌으니까. 멀어지는 일도 대단한 이유가 있어서는 아닐 것이다. 하지만…… <span class="source">&lt;공룡의 이동 경로&gt;, 김화진, 35p 中</span>`,
+`글이라는 건 이상해서 어떻게 덮거나 가려도 그 사람이 드러나기 마련이었다. 투명하게 쓰건 불투명하게 쓰건, 선명하거나 흐릿하게 그 사람을 알려주었다. <span class="source">&lt;공룡의 이동 경로&gt;, 김화진, 52p 中</span>`,
+`파도를 바라보고 있으면 영원히 그러고 서 있을 수 있을 것 같다는 생각이 드는데 무엇보다 그런게 힘이 아닌가, 하고 생각했다. 계속해서 바라보는 것. 눈을 거두지 않는 것. <span class="source">&lt;공룡의 이동 경로&gt;, 김화진, 84p 中</span>`,
+`자, 우리 죽지 말고 불행하게 오래오래 살아요. 불행한 얼굴로 여기, 뉴월드에서. <span class="source">영화 &lt;꿈의 제인&gt;</span>`,
+`우리 상상력을 발휘해보자. 함께있다고. <span class="source">영화 &lt;소공녀&gt;</span>`,
+`다만 나쁜 일들이 닥치면서도 기쁜 일들이 함께 한다는 것. 우리는 늘 누군가를 만나 무언가를 나눈다는 것. 세상은 참 신기하고 아름답다. <span class="source">영화 &lt;벌새&gt;</span>`,
+`상식만천하 지심능기인(相識滿天下 知心能機人). 서로 얼굴을 아는 사람은 세상에 가득하지만 마음까지 아는 사람은 얼마나 있을까. <span class="source">영화 &lt;벌새&gt;</span>`,
+`어떻게 사는 것이 맞을까 어느날 알 것 같다가도 정말 모르겠어 다만 나쁜 일들이 닥치면서도 기쁜 일들이 함께 한다는 것 우리는 늘 누군가를 만나 무언가를 나눈다는 것 세상은 참 신기하고 아름답다. <span class="source">영화 &lt;벌새&gt;</span>`,
+`함부로 동정할 수 없어. 알 수 없잖아. <span class="source">영화 &lt;벌새&gt;</span>`,
+`난 이래서 음악이 좋아. 지극히 따분한 일상의 순간까지도 의미를 갖게 되잖아. 이런 평범함도 어느 순간 갑자기 진주처럼 아름답게 빛나거든. 그게 바로 음악이야. <span class="source">영화 &lt;비긴 어게인&gt;</span>`,
 ];
 
 // 2. pickSentence 함수 선언 (선언부는 배열 아래)
@@ -99,6 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const btn = document.getElementById("pickBtn");
   btn.addEventListener("click", pickSentence);
 });
+
 
 
 
