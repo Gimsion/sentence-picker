@@ -129,6 +129,8 @@ const sentences = [
 `관계의 끝이란 그렇게 당사자 사이의 어떤 문제 때문만이 아니라 당사자들과 제삼자 사이에도 오는 것이었다. <span class="source">&lt;오직 한 사람의 차지&gt;, 김금희 中</span>`
 ];
 
+
+sentences = sentences.map(s => s.replace(/ 中/g, ''));
 // 2. pickSentence 함수 선언 (선언부는 배열 아래)
 function pickSentence() {
   const randomIndex = Math.floor(Math.random() * sentences.length);
