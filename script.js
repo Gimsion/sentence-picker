@@ -1,6 +1,6 @@
 alert("마음에 드는 문장을 만나길 🍵");
 
-let sentences = [
+const sentences = [
 `상대방이 “나와 다른 마음일 수도 있다는 것을 잊지 않”는 그의 문장을 잊지 않고 싶다. 그 가능성을 겸허히 받아들이는 사람만이 다음 문제도 성숙하게 해결할 수 있을 것이다.<br><span class="source">&lt;부지런한 사랑&gt;, 이슬아 68p 中</span>`,
 `우리는 남에게 관심을 가지면서 어휘를 늘려가는 존재들이다.<br><span class="source">&lt;부지런한 사랑&gt;, 이슬아 77p 中</span>`,
 `남다른 호기심이 가득한 사람들은 땅에서 발을 뗀 채로 세계를 유영하듯 살곤 하잖아.<br><span class="source">&lt;부지런한 사랑&gt;, 이슬아 84p 中</span>`,
@@ -127,10 +127,7 @@ let sentences = [
 `나는 변화가 완수된 듯 보여도 그것이 지속을 보장하지 않는다는 사실을 우울하게 곱씹었다. <span class="source">&lt;오직 한 사람의 차지&gt;, 김금희 中</span>`,
 `우리는 구제불능의 술꾼들처럼 같은 말만 되풀이했다. 그렇게 말할 때마다 체스는 체스였다가 체스가 아닌 것이 되었다가 결국 그것이 무엇인지를 따질 필요도 없는 모든 것이 되어갔다. <span class="source">&lt;오직 한 사람의 차지&gt;, 김금희 中</span>`,
 `관계의 끝이란 그렇게 당사자 사이의 어떤 문제 때문만이 아니라 당사자들과 제삼자 사이에도 오는 것이었다. <span class="source">&lt;오직 한 사람의 차지&gt;, 김금희 中</span>`,
-];
-
-
-sentences = sentences.map(s => s.replace(/ 中/g, ''));
+];.map(s => s.replace(/ 中/g, ''));
 
 // 2. pickSentence 함수 선언 (선언부는 배열 아래)
 function pickSentence() {
