@@ -136,7 +136,7 @@ function pickSentence() {
 
   result.classList.remove("fade");
   void result.offsetWidth; // reflow 강제
-  result.innerHTML = sentences[randomIndex];
+  result.innerHTML = cleaned[randomIndex];
   result.classList.add("fade");
 }
 
