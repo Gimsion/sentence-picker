@@ -144,8 +144,7 @@ const sentences = [
 
 `일반적으로 근사하다고 할 수는 없지만, 예쁜 점이 구석구석 숨어 있는 나의 서식지. <span class="source">&lt;친구의 표정&gt;, 안담, 73p 中</span>`,
 
-`서로에 관해 모르는 게 없다가 아는 게 없어지는 방향으로 기억을 쌓기. 남들이 이해하는 게 점점 많아지는 동안 나는 너 하나도 제대로 모르기. 우리가 처음 만났던 순간을 향해 늙어가기. 유년을 향해 자라나기. <span class="source">&lt;친구의 표정&gt;, 안담, 150p 中</span>`
-];
+`서로에 관해 모르는 게 없다가 아는 게 없어지는 방향으로 기억을 쌓기. 남들이 이해하는 게 점점 많아지는 동안 나는 너 하나도 제대로 모르기. 우리가 처음 만났던 순간을 향해 늙어가기. 유년을 향해 자라나기. <span class="source">&lt;친구의 표정&gt;, 안담, 150p 中</span>`];
 const cleaned = sentences.map(s => s.replace(/ 中/g, ''));
 // 2. pickSentence 함수 선언 (선언부는 배열 아래)
 function pickSentence() {
